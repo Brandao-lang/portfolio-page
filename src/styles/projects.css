@@ -1,0 +1,58 @@
+.projects-container {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.project-list {
+  display: flex;
+}
+
+.slide {
+  background-color: #1d3557;
+  position: relative;
+  /* border: 2px solid black; */
+  border-radius: 1%;
+  margin: 0 auto;
+  width: 30vw;
+  height: 22vh;
+  text-align: left;
+  padding: 10px;
+}
+
+.git-icon {
+  position: absolute;
+  cursor: pointer;
+  bottom: 5%;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: none;
+  margin-left: 15px;
+}
+
+.demo-icon {
+  position: absolute;
+  cursor: pointer;
+  bottom: 5%;
+  padding: 6px 11px;
+  background-color: #4a4e69;
+  color: #fff;
+  border: none;
+  margin-left: 95px;
+}
+
+.git-icon:hover,
+.demo-icon:hover {
+  opacity: 0.88;
+}
+
+@media (max-width: 750px) {
+  .project-list {
+    display: block;
+  }
+
+  .slide {
+    width: 90vw;
+    height: 40vh;
+    margin-bottom: 15%;
+  }
+}

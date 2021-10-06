@@ -1,0 +1,40 @@
+.main-content {
+  margin-top: 10%;
+  padding-left: 5%;
+  /* background-color: red; */
+  text-align: left;
+}
+
+.main-content p {
+  font-size: 1.2em;
+  width: 50vw;
+}
+
+.main-content strong {
+  font-size: 1.5em;
+}
+
+.contact-button {
+  cursor: pointer;
+  padding: 10px 20px;
+  font-weight: 900;
+  color: #fff;
+  background-color: #1d3557;
+  border: none;
+  border-radius: 7%;
+}
+
+.main-content button:hover {
+  opacity: 0.88;
+}
+
+@media (max-width: 700px) {
+  .main-content {
+    width: 90vw;
+    /* background-color: red; */
+  }
+
+  .main-content p {
+    width: 90%;
+  }
+}

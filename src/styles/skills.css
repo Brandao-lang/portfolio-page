@@ -1,0 +1,53 @@
+.skills-container {
+  /* background-color: red; */
+  margin-top: 10%;
+  padding-left: 5%;
+  text-align: left;
+}
+
+.skills-container h2 {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.proficient-icons {
+  background-color: #1d3557;
+  width: 45vw;
+  padding: 30px;
+  border-radius: 1%;
+  margin-left: 2%;
+}
+
+.experience-icons {
+  background-color: #1d3557;
+  width: 45vw;
+  padding: 30px;
+  border-radius: 1%;
+  margin-left: 2%;
+}
+
+svg,
+img {
+  height: 65px;
+  margin-right: 50px;
+  fill: #fff;
+}
+
+.options {
+  display: block;
+}
+
+@media (max-width: 720px) {
+  .proficient-icons,
+  .experience-icons {
+    width: 60vw;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .proficient-icons svg,
+  .proficient-icons img,
+  .experience-icons img {
+    margin: 10%;
+  }
+}
