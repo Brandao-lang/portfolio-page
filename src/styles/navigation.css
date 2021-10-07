@@ -89,4 +89,13 @@ li {
   .show {
     width: 30vw;
   }
+
+  .social-icons {
+    width: 20%;
+    display: flex;
+  }
+
+  .social-icons li {
+    margin: 5%;
+  }
 }

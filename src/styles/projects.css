@@ -45,7 +45,7 @@
   opacity: 0.88;
 }
 
-@media (max-width: 750px) {
+/* @media (max-width: 750px) {
   .project-list {
     display: block;
   }
@@ -54,5 +54,40 @@
     width: 90vw;
     height: 40vh;
     margin-bottom: 15%;
+  }
+} */
+
+@media (max-width: 1660px) {
+  .slide {
+    border-radius: 1%;
+    margin: 0 auto;
+    width: 30vw;
+    height: 32vh;
+    text-align: left;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 1990px) {
+  .slide {
+    width: 28vw;
+  }
+}
+
+@media (max-width: 1515px) {
+  .slide {
+    width: 28vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  .project-list {
+    display: block;
+  }
+
+  .slide {
+    width: 90vw;
+    height: 40vh;
+    margin-bottom: 5%;
   }
 }
