@@ -75,8 +75,8 @@ export default function Skills () {
             <h2>Have Experience</h2>
             <div className='experience-icons'>
                 <img data-aos='fade-right' src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png' alt= 'typescript'/>
-                <img data-aos='fade-right' src='https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png' alt= 'python'/>
                 <img data-aos='fade-right' src='https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png' alt= 'java'/>
+               <img data-aos='fade-right' src='https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png' alt= 'python'/>
                 <img data-aos='fade-right' src='https://cdn1.iconfinder.com/data/icons/soleicons-fill-vol-1/64/postgres_database_server_relational_dbms_sql-256.png' alt= 'postgres'/>
             </div>
                 
