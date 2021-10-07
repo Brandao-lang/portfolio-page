@@ -126,4 +126,10 @@ img {
   .experience-icons {
     width: 70%;
   }
+
+  .proficient-icons svg,
+  .proficient-icons img,
+  .experience-icons img {
+    height: 55px;
+  }
 }
