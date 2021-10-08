@@ -57,13 +57,29 @@
 
 @media (max-width: 1990px) {
   .slide {
+    width: 29vw;
+    height: 25vh;
+  }
+}
+
+@media (max-width: 1900px) {
+  .slide {
+    width: 30vw;
+    height: 12vw;
+  }
+}
+
+@media (max-width: 1800px) {
+  .slide {
     width: 28vw;
+    height: 32vh;
   }
 }
 
 @media (max-width: 1515px) {
   .slide {
     width: 28vw;
+    height: 36vh;
   }
 }
 
