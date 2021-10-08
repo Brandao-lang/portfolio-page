@@ -91,6 +91,15 @@ li {
 @media (max-width: 700px) {
   ul {
     padding-left: 5%;
+    margin-top: 3px;
+  }
+
+  li {
+    margin-right: 20px;
+  }
+
+  .download-options {
+    top: 27%;
   }
 
   .show {
@@ -100,6 +109,7 @@ li {
   .social-icons {
     width: 20%;
     display: flex;
+    margin-top: 15px;
   }
 
   .social-icons li {
