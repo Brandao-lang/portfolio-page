@@ -10,13 +10,12 @@
 .slide {
   background-color: #1d3557;
   position: relative;
-  /* border: 2px solid black; */
   border-radius: 1%;
   margin: 0 auto;
   width: 30vw;
   height: 22vh;
   text-align: left;
-  padding: 10px;
+  padding: 20px;
 }
 
 .git-icon {
@@ -44,18 +43,6 @@
 .demo-icon:hover {
   opacity: 0.88;
 }
-
-/* @media (max-width: 750px) {
-  .project-list {
-    display: block;
-  }
-
-  .slide {
-    width: 90vw;
-    height: 40vh;
-    margin-bottom: 15%;
-  }
-} */
 
 @media (max-width: 1660px) {
   .slide {

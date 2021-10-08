@@ -25,13 +25,21 @@ li {
 .download-options {
   position: absolute;
   display: block;
-  width: 6%;
+  /* width: 6%; */
   padding: 0%;
-  top: 30%;
+  top: 32%;
 }
 
-.download-options h2 {
+.download-options button {
   margin: 0;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.download-options button:focus {
+  opacity: 0.58;
 }
 
 .download-options h2:hover {
@@ -56,7 +64,7 @@ li {
   border: 1px solid black;
   border-radius: 3%;
   background-color: #1d3557;
-  width: 100%;
+  width: 80%;
 }
 
 .show a li:hover {
@@ -72,7 +80,6 @@ li {
 
 .social-icons li {
   display: inline;
-  /* background-color: #1d3557; */
 }
 
 .social-icons svg {
@@ -97,5 +104,9 @@ li {
 
   .social-icons li {
     margin: 5%;
+  }
+
+  .show {
+    width: 80%;
   }
 }
