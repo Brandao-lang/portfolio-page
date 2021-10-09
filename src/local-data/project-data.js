@@ -15,6 +15,6 @@ export const projectData = [
         title: 'User Directory',
         description: 'A react CRUD operations demonstration project. The application stores information about users in a psuedo local database. New users can be created, existing users can be edited and deleted.',
         github: 'https://github.com/Brandao-lang/user-directory',
-        demo: ''
+        demo: 'https://user-bio.herokuapp.com/'
     }
 ]
