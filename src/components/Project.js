@@ -12,8 +12,8 @@ export default function Project () {
                 <div data-aos='fade-up' key ={index} className='slide'>
                   <h2>{project.title}</h2>
                   <p style={{paddingLeft: '15px'}}>{project.description}</p>
-                  <a href={project.github}><button className='git-icon'>GitHub</button></a>
-                  <a href={project.demo}><button className='demo-icon'>Live Demo</button></a>
+                  <a href={project.github} target='_blank' rel="noreferrer"><button className='git-icon'>GitHub</button></a>
+                  <a href={project.demo} target='_blank' rel="noreferrer"><button className='demo-icon'>Live Demo</button></a>
                 </div>
               ) 
             })}
