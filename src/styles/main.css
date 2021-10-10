@@ -1,7 +1,6 @@
 .main-content {
   margin-top: 10%;
   padding-left: 5%;
-  /* background-color: red; */
   text-align: left;
 }
 
@@ -31,7 +30,6 @@
 @media (max-width: 700px) {
   .main-content {
     width: 90vw;
-    /* background-color: red; */
   }
 
   .main-content p {

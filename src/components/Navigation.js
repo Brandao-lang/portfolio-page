@@ -12,8 +12,7 @@ export default function Navigation() {
 
     useEffect(() => {
         const checkIfClickedOutside = e => {
-          // If the menu is open and the clicked target is not within the menu, then close the menu
-          if (visible && ref.current && !ref.current.contains(e.target)) {
+         if (visible && ref.current && !ref.current.contains(e.target)) {
             setVisible(false)
           }
         }
@@ -21,7 +20,6 @@ export default function Navigation() {
         document.addEventListener("mousedown", checkIfClickedOutside)
     
         return () => {
-          // Cleanup the event listener
           document.removeEventListener("mousedown", checkIfClickedOutside)
         }
       }, [visible])
