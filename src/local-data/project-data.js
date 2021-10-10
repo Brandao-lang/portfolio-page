@@ -9,7 +9,7 @@ export const projectData = [
         title: 'CSS Demo',
         description: 'A CSS/React static demonstration.',
         github: 'https://github.com/Brandao-lang/web-clone',
-        demo: 'https://css-react-design-demon.herokuapp.com/'
+        demo: 'https://css-react-design-demo.herokuapp.com/'
     },
     {
         title: 'User Directory',
