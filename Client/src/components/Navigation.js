@@ -35,7 +35,7 @@ export default function Navigation() {
                         <ul className='download-options' ref={ref}>
                             <li onClick={toggleMenu}><button>Resume</button></li>
                             <div className={visible ? 'show' : 'hide'}>
-                                <a href='https://drive.google.com/uc?export=download&id=1Nxq7tnWaIbieNrZg3dvEALE0hb3Cuy6t'><li >Download as PDF</li></a>
+                                <a href='https://drive.google.com/uc?export=download&id=1evz0hnA2rlC2sGN03CIgr8TZJF0Vc54C'><li >Download as PDF</li></a>
                                 <a href='https://docs.google.com/document/d/1PzRo42tjUPY0AzgSMIttwoEOSJjDKkoxLCfu3P8INQI/edit' target='_blank' rel="noreferrer"><li>Google Doc</li></a>
                             </div> 
                         </ul>
