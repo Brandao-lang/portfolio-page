@@ -5,130 +5,20 @@
 }
 
 .skills-container h2 {
-  margin-top: 2%;
-  margin-left: 2%;
+  margin-bottom: 45px;
 }
 
 .proficient-icons {
-  background-color: #1d3557;
-  width: 45vw;
-  padding: 30px;
-  border-radius: 1%;
-  margin-left: 2%;
+  display: "flex";
+  flex-wrap: wrap;
+  gap: "30px";
 }
 
-.experience-icons {
-  background-color: #1d3557;
-  width: 45vw;
-  padding: 30px;
-  border-radius: 1%;
-  margin-left: 2%;
-}
-
-svg,
-img {
-  height: 65px;
-  margin-right: 50px;
+.proficient-icons svg,
+.proficient-icons img {
+  background-color: rgba(33, 37, 41);
+  border-radius: 6%;
+  padding: 15px;
+  height: 80px;
   fill: #fff;
-}
-
-.options {
-  display: block;
-}
-
-@media (max-width: 720px) {
-  .proficient-icons,
-  .experience-icons {
-    width: 60vw;
-    margin: 0%;
-    padding: 0%;
-  }
-
-  .proficient-icons svg,
-  .proficient-icons img,
-  .experience-icons img {
-    margin: 10%;
-  }
-}
-
-@media (max-width: 1760px) {
-  .proficient-icons,
-  .experience-icons {
-    width: 60%;
-  }
-}
-
-@media (max-width: 1390px) {
-  .proficient-icons,
-  .experience-icons {
-    width: 70%;
-  }
-}
-
-@media (max-width: 1190px) {
-  .proficient-icons,
-  .experience-icons {
-    width: 80%;
-  }
-}
-
-@media (max-width: 1130px) {
-  .proficient-icons,
-  .experience-icons {
-    width: 45%;
-  }
-
-  .proficient-icons svg,
-  .proficient-icons img,
-  .experience-icons img {
-    margin: 25px;
-  }
-}
-
-@media (max-width: 1090px) {
-  .proficient-icons,
-  .experience-icons {
-    width: 48%;
-  }
-}
-
-@media (max-width: 1010px) {
-  .proficient-icons,
-  .experience-icons {
-    width: 50%;
-  }
-}
-
-@media (max-width: 980px) {
-  .proficient-icons,
-  .experience-icons {
-    width: 52%;
-  }
-}
-
-@media (max-width: 930px) {
-  .proficient-icons,
-  .experience-icons {
-    width: 45%;
-  }
-}
-
-@media (max-width: 830px) {
-  .proficient-icons,
-  .experience-icons {
-    width: 35%;
-  }
-}
-
-@media (max-width: 700px) {
-  .proficient-icons,
-  .experience-icons {
-    width: 70%;
-  }
-
-  .proficient-icons svg,
-  .proficient-icons img,
-  .experience-icons img {
-    height: 55px;
-  }
 }

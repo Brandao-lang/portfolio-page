@@ -1,96 +1,47 @@
-.projects-container {
-  margin-top: 10%;
-  margin-bottom: 10%;
+.project-group {
+  margin-top: 200px;
+  padding-left: 74px;
 }
 
-.project-list {
-  display: flex;
+.card-img {
+  height: 220px;
 }
 
-.slide {
-  background-color: #1d3557;
-  position: relative;
-  border-radius: 1%;
-  margin: 0 auto;
-  width: 30vw;
-  height: 22vh;
-  text-align: left;
+.card-text {
   padding: 20px;
 }
 
-.git-icon {
-  position: absolute;
-  cursor: pointer;
-  bottom: 5%;
-  padding: 5px 10px;
-  background-color: #fff;
-  border: none;
-  margin-left: 15px;
+.tech-icons {
+  height: 35px;
+  margin-right: 20px;
 }
 
-.demo-icon {
-  position: absolute;
-  cursor: pointer;
-  bottom: 5%;
-  padding: 6px 11px;
-  background-color: #4a4e69;
-  color: #fff;
-  border: none;
-  margin-left: 95px;
+.projects-header {
+  text-align: left;
 }
 
-.git-icon:hover,
-.demo-icon:hover {
-  opacity: 0.88;
-}
-
-@media (max-width: 1660px) {
-  .slide {
-    border-radius: 1%;
-    margin: 0 auto;
-    width: 30vw;
-    height: 32vh;
-    text-align: left;
-    padding: 10px;
-  }
-}
-
-@media (max-width: 1990px) {
-  .slide {
-    width: 29vw;
-    height: 25vh;
-  }
-}
-
-@media (max-width: 1900px) {
-  .slide {
-    width: 30vw;
-    height: 12vw;
-  }
-}
-
-@media (max-width: 1800px) {
-  .slide {
-    width: 28vw;
-    height: 32vh;
-  }
-}
-
-@media (max-width: 1515px) {
-  .slide {
-    width: 28vw;
-    height: 36vh;
-  }
-}
-
-@media (max-width: 1200px) {
-  .project-list {
-    display: block;
+@media only screen and (max-width: 1000px) {
+  .project-group {
+    padding-left: 0px;
   }
 
-  .slide {
-    width: 90vw;
-    height: 45vh;
-    margin-bottom: 5%;
+  .card-img {
+    display: none;
+  }
+
+  .card-text {
+    padding: 5px;
+  }
+
+  .card-btn {
+    padding: 3px;
+  }
+
+  .tech-icons {
+    margin-right: 15px;
+  }
+
+  .projects-header {
+    padding-left: 20px;
   }
 }

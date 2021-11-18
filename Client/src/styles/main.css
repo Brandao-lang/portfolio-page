@@ -1,5 +1,6 @@
 .main-content {
   margin-top: 10%;
+  margin-bottom: 15%;
   padding-left: 5%;
   text-align: left;
 }
@@ -30,6 +31,7 @@
 @media (max-width: 700px) {
   .main-content {
     width: 90vw;
+    margin-top: 70px;
   }
 
   .main-content p {

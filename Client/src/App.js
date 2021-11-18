@@ -8,11 +8,12 @@ import Skills from './components/Skills';
 function App() {
   return (
     <div className="App">
-      
-        <Navigation />
+      <Navigation />
+      <div className='page-body'>
         <Main />
         <Skills />
         <Project />
+      </div>
     </div>
   );
 }
