@@ -16,9 +16,21 @@
 
 .proficient-icons svg,
 .proficient-icons img {
+  height: 45px;
+  fill: #fff;
+  margin-bottom: 7px;
+}
+
+.test-box {
   background-color: rgba(33, 37, 41);
   border-radius: 6%;
   padding: 15px;
-  height: 80px;
-  fill: #fff;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.test-box span {
+  margin-top: 10px;
+  color: #fff;
 }
