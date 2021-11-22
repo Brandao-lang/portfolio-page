@@ -49,9 +49,9 @@
     padding: 3px;
   }
 
-  .tech-icons {
+  /* .tech-icons {
     margin-right: 15px;
-  }
+  } */
 
   .projects-header {
     padding-left: 20px;
@@ -64,6 +64,6 @@
   }
 
   .card-icons {
-    gap: 2px;
+    gap: 15px;
   }
 }
