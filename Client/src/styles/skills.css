@@ -34,3 +34,17 @@
   margin-top: 10px;
   color: #fff;
 }
+
+@media only screen and (max-width: 700px) {
+  .skills-container {
+    padding: 1px;
+  }
+
+  .skills-container h2 {
+    padding-left: 20px;
+  }
+
+  .proficient-icons {
+    justify-content: center;
+  }
+}
