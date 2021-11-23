@@ -16,7 +16,7 @@ export default function Project () {
       <div className='project-cards'>
         {projectData.map((project, index) => {
             return (
-            <Card data-aos='fade-up' key={index} bg='dark' style={{ width: '600px'}}>
+            <Card className='card-container' data-aos='fade-up' key={index} bg='dark' >
                 <Card.Img className='card-img' variant="top" src={project.img} />
                 <Card.Body>
                   <Card.Title style={{color: '#fff'}}>{project.title}</Card.Title>

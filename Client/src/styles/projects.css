@@ -1,6 +1,10 @@
 .project-group {
   margin-top: 200px;
-  padding-left: 74px;
+  padding-left: 5%;
+}
+
+.card-container {
+  width: 600px;
 }
 
 .card-img {
@@ -32,34 +36,39 @@
   justify-content: flex-start;
 }
 
-@media only screen and (max-width: 1000px) {
-  .project-group {
-    padding-left: 0px;
-  }
-
+@media only screen and (max-width: 1420px) {
   .card-img {
     display: none;
   }
 
   .card-text {
-    padding: 5px;
+    padding: 15px;
   }
 
   .card-btn {
     padding: 3px;
   }
 
-  .projects-header {
-    padding-left: 20px;
+  .card-container {
+    width: 45%;
   }
 }
 
-@media only screen and (max-width: 900px) {
-  .project-cards {
-    margin: 10px;
-  }
-
+@media only screen and (max-width: 950px) {
   .card-icons {
     gap: 15px;
+  }
+
+  .project-group {
+    margin-top: 100px;
+    padding-left: 5%;
+  }
+
+  .card-container {
+    width: 95%;
+  }
+
+  .card-text {
+    padding: 5px;
   }
 }
