@@ -41,10 +41,11 @@
   }
 
   .skills-container h2 {
-    padding-left: 20px;
+    /* padding-left: 20px; */
+    margin-top: 40px;
   }
 
   .proficient-icons {
-    justify-content: center;
+    justify-content: space-between;
   }
 }

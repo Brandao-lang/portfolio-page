@@ -27,6 +27,7 @@
 .projects-header {
   text-align: left;
   margin-bottom: 40px;
+  align-items: center;
 }
 
 .project-cards {
@@ -61,14 +62,19 @@
 
   .project-group {
     margin-top: 100px;
-    padding-left: 5%;
+    text-align: center;
+    padding-left: 0px;
   }
 
   .card-container {
-    width: 95%;
+    width: 99%;
   }
 
   .card-text {
     padding: 5px;
+  }
+
+  .project-cards {
+    justify-content: center;
   }
 }

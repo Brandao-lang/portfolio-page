@@ -32,6 +32,7 @@
   .main-content {
     width: 90vw;
     margin-top: 70px;
+    padding-left: 10px;
   }
 
   .main-content p {
