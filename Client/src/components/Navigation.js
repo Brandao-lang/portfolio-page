@@ -10,8 +10,8 @@ export default function Navigation() {
                 <Nav className="me-auto">
                     <Nav.Link href="#to-projects">Projects</Nav.Link>
                     <NavDropdown title="Resume" id="navbarScrollingDropdown">
-                        <NavDropdown.Item href="https://drive.google.com/uc?export=download&id=1WOZ3F__H708JhUse5kk2VmJ4bW0aUGZ-">Download as PDF</NavDropdown.Item>
-                        <NavDropdown.Item href="https://drive.google.com/file/d/1WOZ3F__H708JhUse5kk2VmJ4bW0aUGZ-/view?usp=sharing" target='_blank' rel="noreferrer">Google Docs</NavDropdown.Item>
+                        <NavDropdown.Item href="https://drive.google.com/uc?export=download&id=1KPT_5B3YC9O3RjGUULrhYwg4_2FbF-JP">Download as PDF</NavDropdown.Item>
+                        <NavDropdown.Item href="https://drive.google.com/file/d/1KPT_5B3YC9O3RjGUULrhYwg4_2FbF-JP/view?usp=sharing" target='_blank' rel="noreferrer">Google Docs</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 <Nav>
