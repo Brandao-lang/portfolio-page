@@ -6,7 +6,7 @@ export default function Main () {
     return (
         <div className='main-content'>
             <p>
-            <strong>Hi, my name is Elijah.</strong> <br/><br/>I'm passionate about solving problems with software and building user experiences powered by the combination of artistic expression and web based software.  
+            <strong>Hi, my name is Elijah.</strong> <br/><br/>I'm passionate about solving problems with software and building user experiences powered by the combination of artistic expression and web based technologies.  
             </p>
            <a href='mailto:elijahbrandao@gmail.com'> 
                 <Button variant='primary'>
