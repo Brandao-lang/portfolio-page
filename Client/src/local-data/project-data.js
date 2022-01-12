@@ -22,5 +22,13 @@ export const projectData = [
         github: 'https://github.com/Brandao-lang/web-clone',
         demo: 'https://css-react-design-demo.herokuapp.com/',
         technologies: [ "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png", 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png']
+    }, 
+    {
+        title: 'Student Directory',
+        description: 'A ReactJS directory/phonebook styled app. The app holds a list of students and their information. All students can be looked up by name or by a special tag that can be created for each student in the list. Students may also be searched by both a name and tag simultaneously.',
+        img:'https://i.imgur.com/sqOXqmh.png',
+        github: 'https://github.com/Brandao-lang/student-profile',
+        demo: 'http://students-directory.herokuapp.com/',
+        technologies: [ "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png", 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png', 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png']
     }
 ]
