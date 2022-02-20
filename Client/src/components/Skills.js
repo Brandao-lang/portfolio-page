@@ -100,9 +100,9 @@ export default function Skills () {
                 </div>
 
                 <div className='test-box' data-aos='fade-right'>
-               <img src='https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png' alt= 'python'/>
+               <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png' alt= 'asp.net'/>
                <br/>
-               <span>Python</span>
+               <span>.NET Core</span>
                </div>
                
                <div className='test-box' data-aos='fade-right'>
