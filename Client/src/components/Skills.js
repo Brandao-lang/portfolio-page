@@ -102,7 +102,7 @@ export default function Skills () {
                 <div className='test-box' data-aos='fade-right'>
                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png' alt= 'asp.net'/>
                <br/>
-               <span>.NET Core</span>
+               <span>.NET</span>
                </div>
                
                <div className='test-box' data-aos='fade-right'>
